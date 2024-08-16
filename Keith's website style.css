@@ -1,0 +1,112 @@
+
+body {
+    background-color: #76ABAE;
+}
+hr {
+    margin: 0;
+}
+.history-table {
+    border-collapse: collapse;
+    margin: 25px o;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.history-table thead tr {
+    background-color: #EEEEEE;
+    text-align: left;
+    font-weight: bold;
+}
+.history-table th, .history-table td {
+    padding: 12px 20px;
+}
+.history-table tbody tr {
+    border-bottom: 2px solid #EEEEEE;
+}
+.history-table tbody tr:nth-of-type(even) {
+    background-color: #31363F;
+}
+.history-table tbody tr:nth-of-type(odd) {
+    background-color: #222831;
+}
+.history-table tbody tr:last-of-type {
+    border-bottom: 4px solid #EEEEEE ;
+}
+h1 , h2, ul, address, tr{
+    color: #1A3636;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr {color: #1A3636;}
+.links {
+   /* color: inherit;*/
+   color: #1A3636; 
+   text-decoration: none;
+   font-size: larger;
+}
+th, tr{
+    color: #EEEEEE;
+}
+.WORK, .DATE {
+    color: #222831;
+}
+.skills {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.skill-bar {
+    height: 14px;
+    background: #EEEEEE;
+    border-radius: 3px;
+}
+.skill-per {
+    height: 14px;
+    background: #31363F;
+    border-radius: 3px;
+    position: relative ;
+}
+.my-skills {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #EEEEEE;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+.skill-per::after {
+    content: ;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #EEEEEE;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+
+}
+li {
+    font-size: larger;
+}
+.history-table tbody{
+    font-size: large;
+}
+.history-table thead {
+    font-size: large;
+}
